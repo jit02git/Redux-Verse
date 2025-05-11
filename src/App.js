@@ -1,10 +1,11 @@
 import './App.css';
 
 function App() {
+  const counter = useAppSelector
   return (
     <div className="App">
       <h1 className="text-3xl font-bold underline">
-      Hello world!
+      Count is 0
     </h1>
 
     </div>
