@@ -12,21 +12,7 @@ const Counter = () => {
         <h1 className="text-2xl font-semibold text-gray-700">Counter App</h1>
         
         <div className="flex justify-center items-center space-x-6">
-          <button
-            className="bg-red-400 hover:bg-red-500 text-white px-4 py-2 rounded-lg transition duration-300"
-            onClick={() => dispatch(decrement())}
-          >
-            −
-          </button>
-          
-          <span className="text-3xl font-bold text-gray-800">{count}</span>
-          
-          <button
-            className="bg-green-400 hover:bg-green-500 text-white px-4 py-2 rounded-lg transition duration-300"
-            onClick={() => dispatch(increment())}
-          >
-            +
-          </button>
+         
         </div>
       </div>
     </div>
